@@ -1,0 +1,19 @@
+# LTspice simulation outputs and log files
+*.raw
+*.op.raw
+*.fft
+*.log
+*.net
+*.tmp
+*.async
+
+# KiCad temporary, local settings, and backup files
+*.kicad_prl
+*-backups/
+*.bak
+fp-info-cache
+*_autosave*
+
+# Optional: Gerber outputs (uncomment if you do not want to track build outputs)
+# /plots/
+# /gerbers/
