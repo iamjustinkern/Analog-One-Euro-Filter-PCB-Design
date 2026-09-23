@@ -2,6 +2,8 @@
 The circuit schematic models a Velocity Tracking - Voltage Controlled Filter. Essentially, it is an analog implementation of an One-Euro Filter.
 This circuit solves the issue of noise you get when you slowly turn a knob from a low-pass soothing filter. As well as this, it will adaptively give you zero delay when you do change the parameters quickly as a heavy soothing filter typically involves some lag. Outside of the control signal soothing, it has this same effect with an input audio signal. For more sustained soft notes, the filter bandwidth would remain smaller and suppress any background hissing noise. For sharp transient attacks, the filter bandwidth will adaptively expand to maintain the characteristic of a bright sharp sound. 
 
+Included in the is repo are the KiCad files needed to print your own version of this circuit. As well as LTspice simulations as a proof of concept.
+
 There are four major stages in this schematic that make up the architecture. 
   1. Differentiator Stage
   2. Full Wave Rectifier
